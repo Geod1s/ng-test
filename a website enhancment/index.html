@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myfa">
+<html lang="en" ng-app="myAngApp">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,9 @@
     <title>angular trainnig</title>
 </head>
 <body>
-    <h1>greetings</h1>
-    <p>my name is geo</p>
+    <div ng-controller="man" ng-init="list-style= none">
+    <ul class="{{ulv}}" ><li ng-repeat="boys in boya" >{{boys}}</li></ul>
+    </div>
+    
 </body>
 </html>
